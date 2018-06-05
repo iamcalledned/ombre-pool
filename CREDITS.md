@@ -1,5 +1,5 @@
 
-Sumokoin fork credits
+Ryo fork credits
 =====================
 
 The sumo fork; all new features and code improvements have been made
