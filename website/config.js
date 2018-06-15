@@ -1,6 +1,6 @@
-var api = "https://pool.sumokoin.ch:8888";
+var api = "http://18.222.115.198:8117";
 
-var poolHost = "pool.sumokoin.ch";
+var poolHost = "18.222.115.198";
 
 var irc = "irc.freenode.net/#sumokoin";
 
