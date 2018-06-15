@@ -22,8 +22,6 @@
         "poolAddress": "Sumoo64zh7dRFyB8dgDWZMLmzKBgGXYWZCG4NBF2VcvzEuiSQpMjyyiYJ1Ra696pZu56PPFQNBDdB1rZjyeX1RVKeWZgHg7pTxj",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
-        "sslKey": "key.pem",
-        "sslCert": "cert.pem",
         "allowedMinerAddressPrefixes": [
           "2864026", "536986"
         ],
@@ -34,21 +32,9 @@
                 "desc": "Low end hardware"
             },
             {
-                "port": 3334,
-                "difficulty": 2000,
-                "desc": "Low end hardware (SSL protected)",
-                "type": "SSL"
-            },
-            {
                 "port": 4444,
                 "difficulty": 10000,
                 "desc": "Mid range hardware"
-            },
-            {
-                "port": 4445,
-                "difficulty": 10000,
-                "desc": "Mid range hardware (SSL protected)",
-                "type": "SSL"
             },
             {
                 "port": 5555,
@@ -56,23 +42,10 @@
                 "desc": "High end hardware"
             },
             {
-                "port": 5556,
-                "difficulty": 20000,
-                "desc": "High end hardware (SSL protected)",
-                "type": "SSL"
-            },
-            {
                 "port": 6666,
                 "difficulty": 30000,
                 "desc": "Hidden port",
                 "hidden": true
-            },
-            {
-                "port": 6667,
-                "difficulty": 30000,
-                "desc": "Hidden port (SSL protected)",
-                "hidden": true,
-                "type": "SSL"
             }
         ],
         "varDiff": {
@@ -121,9 +94,9 @@
         "enabled": true,
         "interval": 30,
         "depth": 60,
-        "poolFee": 1.4,
+        "poolFee": 0.00,
         "devDonation": 0,
-        "coreDevDonation": 0.1,
+        "coreDevDonation": 0.0,
         "extraFeaturesDevDonation":0
     },
 
@@ -131,10 +104,10 @@
         "enabled": true,
         "hashrateWindow": 600,
         "updateInterval": 20,
-        "port": 8118,
+        "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password",
+        "password": "kiki6969",
         "trust_proxy_ip": false
     },
 
