@@ -1,8 +1,8 @@
 {
-    "coin": "Ryo",
-    "symbol": "RYO",
+    "coin": "Ombre",
+    "symbol": "OMB",
     "coinUnits": 1000000000,
-    "coinDifficultyTarget": 240,
+    "coinDifficultyTarget": 60,
 
     "logging": {
         "files": {
@@ -19,33 +19,37 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "Sumoo64zh7dRFyB8dgDWZMLmzKBgGXYWZCG4NBF2VcvzEuiSQpMjyyiYJ1Ra696pZu56PPFQNBDdB1rZjyeX1RVKeWZgHg7pTxj",
+        "poolAddress": "cashESnxKEgcwmKLVkZQudVEbsUtwzYUPLddTFiUueVTcP6iL2FcUjyXyAup3HzuRdYj7P4oqd1GEVwTzhH2aVgX1aaKy58TAR",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "allowedMinerAddressPrefixes": [
-          "2864026", "536986"
+          "925524", "111002"
         ],
         "ports": [
             {
-                "port": 3333,
+                "port": 4444,
                 "difficulty": 2000,
                 "desc": "Low end hardware"
             },
             {
-                "port": 4444,
+                "port": 4446,
                 "difficulty": 10000,
                 "desc": "Mid range hardware"
             },
             {
-                "port": 5555,
+                "port": 4448,
                 "difficulty": 20000,
                 "desc": "High end hardware"
             },
             {
-                "port": 6666,
-                "difficulty": 30000,
-                "desc": "Hidden port",
-                "hidden": true
+                "port": 4450,
+                "difficulty": 100000,
+                "desc": "Mining rigs"
+            },
+            {
+                "port": 4451,
+                "difficulty": 400000,
+                "desc": "NiceHash port"
             }
         ],
         "varDiff": {
@@ -79,7 +83,7 @@
         "enabled": true,
         "interval": 10800,
         "maxAddresses": 30,
-        "mixin": 12,
+        "mixin": 10,
         "transferFee": 10000000,
         "minPayment": 2000000000,
         "maxTransactionAmount": 500000000000,
@@ -87,16 +91,16 @@
         "useDynamicTransferFee": true,
         "transferFeePerPayee": 4000000,
         "minerPayFee": true,
-        "blockReward": 36.45
+        "blockReward": 90
     },
 
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
         "depth": 60,
-        "poolFee": 0.00,
+        "poolFee": 1.4,
         "devDonation": 0,
-        "coreDevDonation": 0.0,
+        "coreDevDonation": 0.1,
         "extraFeaturesDevDonation":0
     },
 
@@ -112,12 +116,12 @@
     },
 
     "daemon": {
-        "host": "96.230.218.20",
+        "host": "127.0.0.1",
         "port": 19734
     },
 
     "wallet": {
-        "host": "96.230.218.20",
+        "host": "127.0.0.1",
         "port": 19735
     },
 
